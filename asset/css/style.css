@@ -9,12 +9,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .container {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
     align-items: start;
+    padding-top: 10px;
 
 }
 
@@ -66,7 +68,7 @@ nav {
 
 }
 
-@media only screen and (max-width: 600px)[
+@media only screen and (max-width: 600px){
     .row {
         text-align: center;
     }
@@ -74,7 +76,7 @@ nav {
     .col-2, .col-3, .col-4, .col-5{
         flex-basis: 100%;
     }
-]
+}
 
 
 nav ul {
@@ -130,7 +132,7 @@ p {
     background-color: #ff523b;
     color: white;
     padding: 8px 30px;
-    margin: 30 0;
+    margin: 20px 0;
     border-radius: 30px;
     transition: background 0.5s;
 }
@@ -314,25 +316,23 @@ small {
     padding: 10px;
     min-width: 150px;
     margin-bottom: 50px;
-   
 }
 
-.col-5a img:hover {
+.bottomMenu img{
+    width: 60px;
+    filter: grayscale(90%);
+    justify-items: center;
+}
+
+.bottomMenu img:hover{
     filter: grayscale(0);
 }
 
-.col-5a img {
-    width: 60;
-    cursor: pointer;
-    justify-items: center;
-    filter: grayscale(90%);
-}
-
-.col-5a h3 {
+.bottomMenu h3 {
     font-size: 14;
     color: #383838;
     text-align: center;
-}
+  }
 
 .footer {
     background-color: #000;
