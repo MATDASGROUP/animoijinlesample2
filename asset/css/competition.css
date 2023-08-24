@@ -199,7 +199,7 @@ p {
   border-radius: 5px;
   position: absolute;
   bottom: 0;
-  left: 39%;
+  left: 41%;
 
 }
 
@@ -246,8 +246,8 @@ h4 {
   display: inline-block;
   background-color: #a8c0e0;
   color: rgb(14, 4, 102);
-  padding: 8px 30px;
-  width: 125px;
+  padding: 4px 10px;
+  width: 87px;
   font-size: 15;
   font-weight: 700;
   margin: 5 0;
@@ -257,6 +257,23 @@ h4 {
 .btn1:hover {
   background-color: rgb(14, 4, 102);
   color: #a8c0e0;
+}
+
+.btn2 {
+  display: inline-block;
+  background-color: #df5b33;
+  color: rgb(253, 215, 205);
+  padding: 2px 5px;
+  width: 85px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.btn2:hover {
+  background-color: rgb(253, 215, 205);
+  color: #c7380c;
 }
 
 .col-2 .col-im{
@@ -343,12 +360,15 @@ small {
 
 .backtotop{
   background-color: #141414;
-  color:#bb9a0a;
-  text-align: center;
-  font-size: 14;
-  font-weight: 700;
   padding: 10px;
   align-items: start;
+}
+
+.backtotop h4{
+  color:#bb9a0a;
+  text-align: center;
+  font-size: 12;
+  font-weight: 500;
 }
 
 .footer-col1 .footer-col2 .footer-col3 .footer-col4 {

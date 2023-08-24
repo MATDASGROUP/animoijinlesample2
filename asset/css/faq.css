@@ -199,7 +199,7 @@ p {
   border-radius: 5px;
   position: absolute;
   bottom: 0;
-  left: 39%;
+  left: 41%;
 
 }
 
@@ -343,12 +343,15 @@ small {
 
 .backtotop{
   background-color: #141414;
-  color:#bb9a0a;
-  text-align: center;
-  font-size: 14;
-  font-weight: 700;
   padding: 10px;
   align-items: start;
+}
+
+.backtotop h4{
+  color:#bb9a0a;
+  text-align: center;
+  font-size: 12;
+  font-weight: 500;
 }
 
 .footer-col1 .footer-col2 .footer-col3 .footer-col4 {
