@@ -72,6 +72,10 @@ nav {
     .row {
         text-align: center;
     }
+    #logo{
+        width: 80%;
+        margin-right: 10px;
+    }
 
     .col-2, .col-3, .col-4, .col-5{
         flex-basis: 100%;

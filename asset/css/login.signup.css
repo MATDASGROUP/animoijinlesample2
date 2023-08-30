@@ -1,0 +1,283 @@
+*{
+  margin: 0px 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: radial-gradient(rgb(238, 240, 241), rgb(209, 238, 252));
+
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+  nav ul{
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+  }
+  nav ul li{
+      display: block;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  nav ul li a{
+      color: #fff;
+  }
+
+  .menu-icon{
+      display: block;
+      cursor: pointer;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px){
+  .row {
+      text-align: center;
+  }
+  #logo{
+      width: 80%;
+      margin-right: 10px;
+  }
+
+  .col-2, .col-3, .col-4, .col-5{
+      flex-basis: 100%;
+  }
+
+
+a {
+  text-decoration: none;
+  border-bottom:2px solid #fd3f26;
+}
+
+
+h1 {
+  color: #fd3f26;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+p {
+  color: #383838;
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+}
+
+p::after {
+  content: "";
+    background-color: #ff523b;
+    width: 350px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 38%;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px;
+  justify-content: space-between;
+}
+
+.input{
+  width: 60%;
+  height: 100%;
+  
+}
+
+
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px;
+  justify-content: space-between;
+}
+
+.signup h3 {
+  width: 300px;
+  font-size: 25px;
+  font-weight: 500;
+  /*background-color: #2671fd;*/
+  padding: 8px 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #fd3f26;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+p {
+  color: #383838;
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+}
+
+.signup h3::after {
+  content: "";
+    background-color: #ff523b;
+    width: 400px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 46px;
+    left: 35%;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  margin: 35px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.input{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 800px;
+  height: 40px;
+  font-size: 16px;
+  
+}
+
+.label1 {
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #383838;
+}
+
+.label2 {
+  margin: 15px 5px;
+  color: #777;
+}
+
+.check {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+
+
+.bttn {
+  display: inline-block;
+  background-color: #ff523b;
+  color: white;
+  width: 200px;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 5px 30px;
+  margin: 20px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.bttn:hover {
+  background-color: white;
+  color: #ff523b;
+}
+
+
+
+h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+
+
+.bttn1 {
+  display: inline-block;
+  background-color: #a8c0e0;
+  color: rgb(14, 4, 102);
+  padding: 4px 10px;
+  width: 200px;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 5 30;
+  border-radius: 30px;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.bttn1:hover {
+  background-color: rgb(14, 4, 102);
+  color: #a8c0e0;
+}
+
+.bttn2 {
+  display: inline-block;
+  background-color: #df5b33;
+  color: rgb(253, 215, 205);
+  padding: 2px 5px;
+  width: 85px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.bttn2:hover {
+  background-color: rgb(253, 215, 205);
+  color: #c7380c;
+}
+
+
+.footer {
+  background-color: #000;
+  color: #8a8a8a;
+  font-size: 14;
+  padding: 25px 0 20px;
+}
+
+.backtotop{
+  background-color: #141414;
+  padding: 10px;
+  align-items: start;
+}
+
+.backtotop h4{
+  color:#bb9a0a;
+  text-align: center;
+  font-size: 12;
+  font-weight: 500;
+}
+
+.footer-col1 .footer-col2 .footer-col3 .footer-col4 {
+  flex-basis: 25%;
+  width: 250px;
+  padding-top: 10px;
+}
+
+.copywright{
+  background-color: #0c0c0c;
+  color:#b3b1b1;
+  text-align: center;
+  font-size: 12;
+  font-weight: 700;
+  padding: 3px;
+  align-items: start;
+}
+

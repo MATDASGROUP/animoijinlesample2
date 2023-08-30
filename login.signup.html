@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/login.signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>ANIMOIJINLE</title>
 </head>
 <body>
-  
+  <h1>Welcome to Animo Ijinle</h1>
+  <p>Please signup/login to place place your order!</p>
+  <div class="login">
+    <h3>Enter your login details below.</h3>
+    <label for="Email">Email Address</label>
+    <input class="input" type="text" placeholder="email@gmail.com">
+    <label for="password">Password</label>
+    <input type="password" class="input" placeholder="password">
+    <button class="bttn">Login</button>
+  </div>
+
+  <div class="signup">
+    <h3>Signup</h3>
+    <label for="Full name" class="label1">Full Name</label>
+    <input type="text" class="input" placeholder="John Doe">
+    <label for="email" class="label1">Email Address</label>
+    <input type="text" class="input" placeholder="email@gmail.com">
+    <label for="Phone Number" class="label1">Phone Number</label>
+    <input type="text" class="input" placeholder="Phone Number">
+    <label for="password" class="label1">Password</label>
+    <input type="password" class="input" placeholder="password">
+    <label for="confirm password" class="label1">Confirm Password</label>
+    <input type="password" class="input" placeholder="Re-enter password">
+    <label for="country" class="label1" class="label1">Nationality</label>
+    <select name="country" id="" class="input">
+      <option value="Nigeria">Nigeria</option>
+      <option value="USA">USA</option>
+      <option value="Brazil">Brazil</option>
+      <option value="Canada">Canada</option>
+      <option value="UK">UK</option>
+      <option value="Ghana">Ghana</option>
+      <option value="Benin">Benin</option>
+      <option value="Togo">Togo</option>
+      <option value="Cameroon">Cameroon</option>
+      <option value="Senegal">Senegal</option>
+      <option value="Chad">Chad</option>
+      <option value="China">Chain</option>
+      <option value="South Korea">South Korea</option>
+      <option value="Norway">Norway</option>
+      <option value="South Africa">South Africa</option>
+      <option value="Egypt">Egypt</option>
+      <option value="Ukraine">Ukraine</option>
+      <option value="Morocco">Morocco</option>
+      <option value="Chile">Chile</option>
+      <option value="Japan">Japan</option>
+    </select>
+
+    <label for="State/Province" class="label1">State/Province</label>
+    <input type="text" class="input" placeholder="Lagos">
+    <h4>Policy Agreement:</h4>
+    <label for="policy agreement" class="label2"><input type="checkbox" class="check" placeholder="Phone Number">  By checking the box; you agreed to all our<a href="#">policy</a>and rules. </label>
+    <button class="bttn1">Sing Up</button>
+  </div>
+
+
+  <script>
+    var menuItems = document.getElementById("menuItems");
+
+    menuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if( menuItems.style.maxHeight == "0px")
+           {
+            menuItems.style.maxHeight = "200px";
+           }
+           else{
+            menuItems.style.maxHeight = "0px";
+           }
+    }
+</script>
+
 </body>
 </html>
